@@ -319,3 +319,27 @@ nav > ul li a:active {
   line-height: 2.4rem;
   margin-bottom: 2.5rem;
 }
+
+/* SOCIAL MEDIA STYLING */
+.section-social-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 2.4rem;
+}
+
+.section-social-item {
+  border-radius: 5px;
+  width: 25%;
+  transition: all 0.3s ease-in;
+}
+
+.section-social-item:hover {
+  box-shadow: -3px 1px 41px -6px rgba(0, 0, 0, 0.75);
+  transform: translateY(-0.5rem);
+}
+
+.section-social-item img {
+  width: 100%;
+  border-radius: 5px;
+}
