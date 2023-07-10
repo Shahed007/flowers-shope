@@ -16,3 +16,85 @@ html {
   font-weight: 400;
   font-size: 62.5%;
 }
+
+/* REUSABLE STYLING */
+.container {
+  width: 114rem;
+  margin: 0 auto;
+}
+
+/* NAVIGATION STYLING */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+  position: relative;
+  z-index: 100;
+}
+
+nav .logo a:link,
+nav .logo a:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+nav > ul li {
+  list-style: none;
+}
+
+nav > ul li:not(:last-child) {
+  margin-right: 3rem;
+}
+
+nav > ul li a:link,
+nav > ul li a:visited {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+  border-bottom: 3px solid transparent;
+  transition: border 0.3s ease;
+  padding-bottom: 0.3rem;
+}
+
+nav > ul li a:hover,
+nav > ul li a:active {
+  border-bottom: 3px solid #6730ec;
+}
+
+/* HEADER-SECTION STYLING */
+.header {
+  /* background-color: green; */
+  background-image: url("../flower-asset/header-bg.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* background-position: center center; */
+  height: 100vh;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(229, 84, 115, 0.8);
+}
+
+/* BANNER SECTION STYLING */
+.banner-container {
+  position: relative;
+  z-index: 100;
+}
