@@ -57,6 +57,14 @@ section {
   margin-top: 13rem;
 }
 
+.section-center {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  width: 100%;
+}
+
 .section-title-box {
   text-align: center;
 }
@@ -78,6 +86,10 @@ section {
   line-height: 2.4rem;
 }
 
+.highlight {
+  color: #e55473;
+}
+
 /* NAVIGATION STYLING */
 nav {
   display: flex;
@@ -97,6 +109,10 @@ nav .logo a:visited {
   font-size: 3rem;
   letter-spacing: 3px;
   color: #fff;
+}
+
+nav .logo a > span {
+  color: #b91135;
 }
 
 nav > ul {
@@ -188,15 +204,8 @@ nav > ul li a:active {
 
 /* OUR FEATURED FLOWERS SECTION STYLING */
 
-.featured-section-center {
-  margin-top: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 .featured-section-container {
+  margin-top: 5rem;
   display: flex;
   align-items: center;
   gap: 2.4rem;
@@ -223,7 +232,7 @@ nav > ul li a:active {
   align-items: center;
   padding: 0 2rem;
   border-radius: 50% 50% 0 0;
-  box-shadow: -3px 1px 41px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: -6px -14px 57px -15px rgba(0, 0, 0, 0.75);
 }
 
 .featured-section-column-1 img,
@@ -251,4 +260,62 @@ nav > ul li a:active {
   font-size: 2rem;
   color: #272727;
   border-bottom: 2px solid #272727;
+}
+
+/* SUPPORT SECTION STYLING */
+.support-section-container {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  padding: 7rem 14rem;
+}
+
+.support-section-item {
+  width: 33.33%;
+}
+
+.support-section-item h4 {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.support-section-item img {
+  filter: drop-shadow(5px 10px 30px rgba(0, 0, 0, 0.5));
+}
+
+/* DEAL SECTION STYLING */
+.section-deal {
+  background: rgba(229, 84, 115, 0.05);
+}
+.section-deal-container {
+  display: flex;
+  align-items: center;
+  padding: 7rem;
+}
+
+.section-deal-column-text,
+.section-deal-column-image {
+  width: 50%;
+}
+
+.section-deal-column-image img {
+  width: 25rem;
+  height: 30rem;
+  filter: drop-shadow(5px 10px 30px rgba(0, 0, 0, 0.5));
+}
+
+.section-deal-column-text .section-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.section-deal-column-text p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  margin-bottom: 2.5rem;
 }
