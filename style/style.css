@@ -33,6 +33,12 @@ html {
   font-weight: 700;
   border-radius: 0.8rem;
   transition: all 0.3s ease;
+  box-shadow: -3px 1px 41px -6px rgba(0, 0, 0, 0.75);
+}
+
+/* BUTTON CLICKING STYLE */
+.btn:active {
+  transform: translateY(0.5rem);
 }
 
 .btn-primary {
