@@ -442,7 +442,7 @@ textarea:focus {
 /* FOOTER SECTION STYLING */
 .footer-section {
   background-image: linear-gradient(50deg, #111, #272727);
-  padding: 13rem 0;
+  padding: 13rem 0 8rem 0;
   margin-top: 13rem;
   color: #fff;
 }
